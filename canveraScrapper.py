@@ -10,7 +10,7 @@ url = "https://photographers.canvera.com/bangalore/wedding-photography"
 
 driver.get(url)
 driver.refresh()
-delay = 15
+delay = 10
 try:
     myElem = WebDriverWait(driver, delay).until(EC.presence_of_element_located((By.ID, 'allDatas')))
     print ("Page is ready!")
