@@ -7,9 +7,13 @@ It is a python script made to scrape data from [Canvera webpage](https://photogr
 ### First Install the basic libraries and driver
 
 - First install the chrome driver. [Click here](https://tecadmin.net/setup-selenium-chromedriver-on-ubuntu/)
-- pip3 install selenium
-- pip3 install pandas
-- pip3 install xlswriter
+```
+pip3 install selenium
+pip3 install pandas
+pip3 install xlswriter
+```
 
 ### To Run the Script
-- python3 canveraScrapper.py
+```
+python3 canveraScrapper.py
+```
